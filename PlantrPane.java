@@ -1,17 +1,12 @@
 package PlantrApp;
 
 import javax.swing.JButton;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JLabel;
 import javax.swing.JTextArea;
 import javax.swing.JFrame;
-import javax.swing.JTextField;
-
 import java.awt.Component;
-import java.awt.Panel;
 import java.awt.Color;
-import java.util.ArrayList;
 import java.util.List;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -23,7 +18,7 @@ private JTextArea Prompt;
 private JTextArea txtEnterPlantName;
 
 PlantrPane(final List<Plant> plantList){
-	System.out.println(plantList.size());
+
 				
 				final JFrame frame = new JFrame();
 				frame.setSize(400,400);
@@ -77,6 +72,7 @@ PlantrPane(final List<Plant> plantList){
 				
 				frame.setVisible(true);
 }
+//End of Plantr Pane
 
 Component result(Plant plant){
 	JPanel panel = new JPanel();
